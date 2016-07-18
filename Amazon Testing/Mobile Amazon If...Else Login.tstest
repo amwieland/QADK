@@ -1,0 +1,1484 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": "C:\\temp\\",
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2015.3.1429.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+    ],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1623b2d8-6689-495d-85e5-ed9cf4c44027",
+            "Description": "Navigate to : 'http://www.amazon.com/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "http://www.amazon.com/",
+                "BaseUrl": "",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Amazon If...Else Login5aytxdg1.vhw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "26e18472-8657-4eb6-afff-f020f6841cfe",
+            "Description": "Keyboard (KeyPress) - Ctrl+F12 (1 times) on 'TwotabsearchtextboxText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopKeyboardActionDescriptor",
+              "__value": {
+                "focus": true,
+                "KeyPress": "Ctrl+F12",
+                "HoldFor": 150,
+                "Action": 0,
+                "RepeatCount": 1,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.amazon.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AmazonComOnlineShopping"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "5ONv07b9dmp7GCRtcuFk1JK1fjw=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "TwotabsearchtextboxText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=twotabsearchtextbox"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": null,
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Mobile Amazon If...Else Loginimyoj2ki.ocq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c311f77a-1c83-472a-863a-122546c4ac8c",
+            "Description": "Verify element 'YourAccountSpan' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.amazon.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AmazonComOnlineShopping"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "0/TseMPJfiwDZxRYvauUUsMz2pA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "YourAccountSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=nav-link-yourAccount"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=span:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/a[1]/span[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Amazon If...Else Login4dd1bmmc.g3p",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "1c00b235-ddd0-48f0-bc65-eea1746375e5",
+            "Description": "Desktop command: HoverOver on YourAccountSpan",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
+              "__value": {
+                "Focus": true,
+                "DesktopActionType": 11,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "0, 0, Percentage, AbsoluteCenter"
+                },
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.amazon.com/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AmazonComOnlineShopping"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "0/TseMPJfiwDZxRYvauUUsMz2pA=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "YourAccountSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=nav-link-yourAccount"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagIndex=span:1"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/a[1]/span[2]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Amazon If...Else Loginrvjr53jz.c5b",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "bc807cc7-81c9-4eaf-a2f2-73bdc390f31c",
+            "Description": "Wait for Exists 'HelloTestGuySpan'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "ExistsNot": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 10000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.amazon.com/s/ref=nb_sb_noss",
+                          "Query": "?url=search-alias%3Daps&field-keywords=3d+printer",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Amazon.com: 3d printer",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AmazonCom3dPrinter0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "gB94wD8LMMPwuzmMa9fRpzNRg2c=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "HelloTestGuySpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Hello, TestGuy"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/a[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Amazon If...Else Loginew43kpei.a4p",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "d6cfca51-1d91-463f-b1d0-970164b340c5",
+            "Description": "IF (Wait for Exists 'HelloTestGuySpan')",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+              "__value": {
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+                  "__value": {
+                    "ExistsNot": false,
+                    "WaitOnElements": true,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
+                    "DataBindVariableName": null,
+                    "Timeout": 10000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {
+                          "RunsAgainstVersion": ""
+                        }
+                      }
+                    },
+                    "Elements": {
+                      "target": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "target",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "http://www.amazon.com/s/ref=nb_sb_noss",
+                              "Query": "?url=search-alias%3Daps&field-keywords=3d+printer",
+                              "BaseUrl": "",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Amazon.com: 3d printer",
+                              "CompareMode": 1,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "AmazonCom3dPrinter0"
+                            }
+                          },
+                          "Frame": null,
+                          "FindInfo": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "gB94wD8LMMPwuzmMa9fRpzNRg2c=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "HelloTestGuySpan",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "TextContent=Hello, TestGuy"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "tagname=span"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": []
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/a[1]/span[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 1,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
+                },
+                "Branches": {
+                  "1": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "cc806eb8-36fa-4f86-a80c-f807277b204d",
+                              "Description": "Execute test 'Amazon Logout'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                "__value": {
+                                  "WaitOnElementsTimeout": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": false,
+                                  "TestName": "Amazon Logout",
+                                  "TestPath": "1 - QADK\\Amazon Testing\\Amazon Logout.tstest",
+                                  "TestUniqueId": "c922ce99-2fb6-4583-8063-f8af1b49087e",
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Loginzoi0vzem.xir",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "1ccec8c2-f6c0-43c1-b1ea-de8833956161",
+                              "Description": "Execute test 'Amazon TestGuy Login'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                "__value": {
+                                  "WaitOnElementsTimeout": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": false,
+                                  "TestName": "Amazon TestGuy Login",
+                                  "TestPath": "1 - QADK\\Amazon Testing\\Amazon TestGuy Login.tstest",
+                                  "TestUniqueId": "ee9ea5c0-31e7-49e5-bb1d-fb2d9ca3a357",
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Login0ilghx2c.apj",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "de4ef873-d3c2-4cbe-9800-e293c9744023",
+                              "Description": "Click 'SignInSpan'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "UsejQuery": false,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "http://www.amazon.com/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+                                            "CompareMode": 1,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AmazonComOnlineShopping"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "lGtLEzIGelI/g8mPL7hhNSRWuiw=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "SignInSpan0",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=nav-flyout-ya-signin"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagIndex=span:0"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": [
+                                                      1
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": null,
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Logink0cw4utl.tsv",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "58427011-421b-47b5-9c2e-00bce30093d8",
+                              "Description": "Enter text 'testguy@telerik.com' in 'ApEmailEmail'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+                                "__value": {
+                                  "RawText": "testguy@telerik.com",
+                                  "SimulateRealTyping": false,
+                                  "TypingSpeed": 50,
+                                  "KeyHoldTime": 100,
+                                  "IsPassword": false,
+                                  "TypingInfo": {
+                                    "ElementText": "",
+                                    "TypedText": "testguy",
+                                    "CaretPosition": 0,
+                                    "IsTextArea": false,
+                                    "IsBackSpace": false
+                                  },
+                                  "Encrypt": false,
+                                  "SupportUnicode": true,
+                                  "UsejQuery": false,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.amazon.com/ap/register",
+                                            "Query": "?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_newcust",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Amazon Registration",
+                                            "CompareMode": 1,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AmazonRegistration"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "pTyp5Ti2P3adtPdo08TE0VLc6AM=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ApEmailEmail",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=ap_email"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/form[1]/div[1]/div[1]/div[2]/div[1]/input[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputEmail",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {},
+                                  "_canEncrypt": false,
+                                  "_cipher": null
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Loginvtpg2hfh.kbd",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "44aabcaa-7c74-45c5-80b6-33818e9c44e4",
+                              "Description": "Enter text 'testing123' in 'ApPasswordPassword'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+                                "__value": {
+                                  "RawText": "testing123",
+                                  "SimulateRealTyping": false,
+                                  "TypingSpeed": 50,
+                                  "KeyHoldTime": 100,
+                                  "IsPassword": false,
+                                  "TypingInfo": {
+                                    "ElementText": "testing123",
+                                    "TypedText": "testing123",
+                                    "CaretPosition": 10,
+                                    "IsTextArea": false,
+                                    "IsBackSpace": false
+                                  },
+                                  "Encrypt": false,
+                                  "SupportUnicode": true,
+                                  "UsejQuery": false,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.amazon.com/ap/register",
+                                            "Query": "?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_newcust",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Amazon Registration",
+                                            "CompareMode": 1,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AmazonRegistration"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "fKXTmmnvYN5w5yp6PYYWi6YiIs4=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "ApPasswordPassword",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=ap_password"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[2]/input[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {},
+                                  "_canEncrypt": true,
+                                  "_cipher": null
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Loginbo4l14nh.yc0",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "4a7ad2f7-3cb2-42f6-835e-f1831143baa4",
+                              "Description": "Click 'SignInSubmitSubmit'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "UsejQuery": false,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "/ap/signin",
+                                            "Query": "?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin",
+                                            "BaseUrl": "https://www.amazon.com",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Amazon.com Sign In",
+                                            "CompareMode": 1,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AmazonComSignIn0"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "EA+B8obzHxKQtOWmLL8hvp8/2WY=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "SignInSubmitSubmit",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=signInSubmit"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=input"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[3]/span[1]/span[1]/input[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputSubmit",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 4,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Loginms3wp5ln.rny",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "85a35b69-f486-4212-a7fd-e478555ec60a",
+                              "Description": "Verify 'TextContent' 'Contains' 'Hi, TestGuy' on 'HiTestGuyLink'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                "__value": {
+                                  "CompareType": 2,
+                                  "SegmentType": 3,
+                                  "ExpectedString": "Hi, TestGuy",
+                                  "UseBackupSearch": true,
+                                  "DataBindVariableName": null,
+                                  "Timeout": 30000,
+                                  "CheckInterval": 500,
+                                  "EnsureStateIsCurrent": false,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "https://www.amazon.com/",
+                                            "Query": "?ref_=nav_signin&",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+                                            "CompareMode": 1,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AmazonComOnlineShopping0"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "bofbeOpULKpmpibVjAgmqBDzOwA=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "HiTestGuyLink",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TextContent=Hi, TestGuy"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=a"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/a[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 2,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 5,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Amazon If...Else Loginzyp44w5u.j5y",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://www.amazon.com/s/ref=nb_sb_noss",
+                          "Query": "?url=search-alias%3Daps&field-keywords=3d+printer",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Amazon.com: 3d printer",
+                          "CompareMode": 1,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AmazonCom3dPrinter0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "gB94wD8LMMPwuzmMa9fRpzNRg2c=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "HelloTestGuySpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Hello, TestGuy"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/header[1]/div[1]/div[2]/div[2]/div[1]/a[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 8,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Amazon If...Else Login1yiewrgu.32x",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "TestProject65.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "1 - QADK\\Amazon Testing\\Mobile Amazon If...Else Login.resx",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "Mobile Amazon If...Else Login",
+    "Owner": "",
+    "Path": "1 - QADK\\Amazon Testing\\Mobile Amazon If...Else Login.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "8009b1fb-8cb8-4845-849f-40e13e59ede0",
+    "Id": "8009b1fb-8cb8-4845-849f-40e13e59ede0",
+    "ProjectId": "46f03153-babe-4e54-9a63-4fa6118e7170",
+    "Version": 200
+  }
+}
